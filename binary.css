@@ -1,0 +1,11 @@
+.print{
+  font-size: 40px;
+}
+#message{
+  font-size: 20px;
+}
+.check{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
