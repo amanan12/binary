@@ -332,7 +332,7 @@ function hexa(){
   for( var i = 0; i < message.length; i++ ){
   switch(message[i]){
       
-      // lower Case binary      
+      // lower Case hexadecimal      
     case "a":
       text = "61";
       break;
@@ -415,7 +415,7 @@ function hexa(){
       text = "20";
       break;
       
-      // Upper case binary     
+      // Upper case hexadecimal     
     case "A":
       text = "41";
       break;
@@ -495,7 +495,7 @@ function hexa(){
       text = "5A";
       break;
       
-      // special case binary     
+      // special case hexadecimal     
     case " ":
       text = " ";
       break;
@@ -640,7 +640,7 @@ function octal(){
   for( var i = 0; i < message.length; i++ ){
   switch(message[i]){
       
-      // lower Case binary      
+      // lower Case octal      
     case "a":
       text = "141";
       break;
@@ -720,7 +720,7 @@ function octal(){
       text = "172";
       break;
       
-      // Upper case binary     
+      // Upper case octal     
     case "A":
       text = "101";
       break;
@@ -800,7 +800,7 @@ function octal(){
       text = "132";
       break;
       
-      // special case binary     
+      // special case octal     
     case " ":
       text = " ";
       break;
